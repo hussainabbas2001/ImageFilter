@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="main">
+        <div id="leftprt">
+            <h1>Images Filters</h1>
+            <div id="inputgrp">
+                <div class="nameinpt">
+                    <label>Grayscale</label>
+                    <br>
+                    <input id="gs"  class="range" type="range" value="0" min="0" max="100">
+                </div>
+                <div class="nameinpt">
+                    <label>Blur</label>
+                    <br>
+                    <input id="blur" class="range" type="range" value="0" max="5">
+                </div>
+                <div class="nameinpt">
+                    <label>Hue-rotate</label>
+                    <br>
+                    <input id="hr" class="range" type="range" value="0" max="100">
+                </div>
+                <div class="nameinpt">
+                    <label>Sepia</label>
+                    <br>
+                    <input id="sp" class="range" type="range" value="0" max="100">
+                </div>
+                <div class="nameinpt">
+                    <label>Invert</label>
+                    <br>
+                    <input id="in" class="range" type="range" value="0" min="0" max="100">
+                </div>
+            </div>
+            <button id="reset">Reset</button>
+        </div>
+        <div id="rightprt">
+            <div id="uppergrp">
+                <input id="imageurl" type="text" placeholder="Image Url">
+                <input id="Changeimage" type="button" value="Change Image">
+            </div>
+            <div id="btmgrp">
+            <img id="imgsrc" src="https://images.pexels.com/photos/1996333/pexels-photo-1996333.jpeg?cs=srgb&dl=pexels-helena-lopes-1996333.jpg&fm=jpg" alt="">
+            </div>
+        </div>
+    </div>
+</body>
+<script src="./editior.js"></script>
+</html>

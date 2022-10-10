@@ -1,0 +1,67 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  html,body{
+    width: 100%;
+    height: 100%;
+}
+
+#main{
+    display: flex;
+    width: 100%;
+    height: 100%;
+    background-color: #dadada;
+}
+#leftprt{
+    padding: 50px 120px;
+    width: 30%;
+    height: 100%;
+    background-color: rgb(98, 90, 90);
+}
+#leftprt h1{
+    color: white;
+}
+label{
+    color: white;
+    font-size: 20px;
+}
+#inputgrp input{
+    margin-top: 10px;
+    width: 80%;
+    padding: 0px 15px;
+}
+.nameinpt{
+    margin-top: 20px;
+}
+#rightprt{
+    padding: 20px 30px;
+    width: 70%;
+    height: 100%;
+    background-color: white;
+}
+#imageurl{
+    padding: 15px 10px;
+    width:85%;
+}
+#Changeimage{
+    padding: 15px 10px;
+
+}
+#btmgrp{
+    margin-top: 20px;
+    width: 100%;
+    height: 90%;
+    background-color: aquamarine;
+}
+#btmgrp img{
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+}
+#reset{
+    padding: 8px 12px;
+    margin-top: 20px;
+    margin-left: 55px;
+}
